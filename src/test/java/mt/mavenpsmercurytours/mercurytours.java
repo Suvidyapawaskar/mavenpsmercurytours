@@ -34,6 +34,7 @@ public class mercurytours {
  @Test(priority=1)
   public void Openbrowser() {
 	  
+	 System.out.println("In Openbrowser method");
 	 System.setProperty("webdriver.chrome.driver", "G:\\Selenium Setup\\setup1\\chromedriver_win32 (8)\\chromedriver.exe");
 	 driver = new ChromeDriver();
 	 //driver.get("http://newtours.demoaut.com/mercurywelcome.php?osCsid=c630a5ed8fcd98956e9a93e42da0b1d1");
@@ -44,6 +45,7 @@ public class mercurytours {
  @Test(priority=2)
   public void EnterApplicationurl()
   {
+	 System.out.println("In EnterApplicationurl method");
 	 driver.get("http://newtours.demoaut.com/mercurywelcome.php?osCsid=c630a5ed8fcd98956e9a93e42da0b1d1");
 	  System.out.println("EnterApplicationurl method is updated");
   }
