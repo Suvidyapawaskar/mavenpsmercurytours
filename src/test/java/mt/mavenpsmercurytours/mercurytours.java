@@ -37,6 +37,7 @@ public class mercurytours {
 	 System.setProperty("webdriver.chrome.driver", "G:\\Selenium Setup\\setup1\\chromedriver_win32 (8)\\chromedriver.exe");
 	 driver = new ChromeDriver();
 	 //driver.get("http://newtours.demoaut.com/mercurywelcome.php?osCsid=c630a5ed8fcd98956e9a93e42da0b1d1");
+	  system.out.println("Openbrowser method is updated");
 	 
   }
  
@@ -44,6 +45,7 @@ public class mercurytours {
   public void EnterApplicationurl()
   {
 	 driver.get("http://newtours.demoaut.com/mercurywelcome.php?osCsid=c630a5ed8fcd98956e9a93e42da0b1d1");
+	  system.out.println("EnterApplicationurl method is updated");
   }
  
  @Test(priority=3)
